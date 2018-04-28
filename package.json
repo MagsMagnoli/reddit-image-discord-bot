@@ -1,0 +1,21 @@
+{
+  "name": "reddit-image-discord",
+  "version": "0.1.0",
+  "description": "A discord bot for posting images from reddit",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reddit",
+    "discord",
+    "image",
+    "bot"
+  ],
+  "author": "Michael Magnoli",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "@types/node": "^10.0.0",
+    "typescript": "^2.8.3"
+  }
+}
