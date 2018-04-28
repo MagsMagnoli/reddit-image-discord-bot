@@ -4,6 +4,7 @@
   "description": "A discord bot for posting images from reddit",
   "main": "dist/index.js",
   "scripts": {
+    "start": "tsc && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,5 +18,11 @@
   "devDependencies": {
     "@types/node": "^10.0.0",
     "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "@types/lodash.sample": "^4.2.3",
+    "discord.js": "^11.3.2",
+    "lodash.sample": "^4.2.1",
+    "random-puppy": "^1.1.0"
   }
 }
